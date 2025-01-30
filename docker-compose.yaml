@@ -12,7 +12,7 @@ services:
       - ~/.wg-easy:/etc/wireguard
     environment:
       - WG_HOST=34.101.161.27
-      - PASSWORD=semangatperiksa
+      - PASSWORD=[password-disesuaikan]
       - WG_PORT=51000
       - WG_MTU=1420
       - WG_PERSISTENT_KEEPALIVE=25
